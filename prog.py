@@ -8,4 +8,8 @@ if number == float:
 else:
     reverse_number = int(reverse_number_string)
 
-print(reverse_number)
+print("Original number: ", number)
+if number == reverse_number:
+    print("Yes, the number is a palindrome number")
+else:
+    print("No, the number is not a palindrome number")
